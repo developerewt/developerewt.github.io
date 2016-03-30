@@ -1,0 +1,12 @@
+{
+    "name": "developerewt/developerewt.github.io",
+    "description": "Personal website",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ewerton Melo",
+            "email": "developerewt@gmail.com"
+        }
+    ],
+    "require": {}
+}
