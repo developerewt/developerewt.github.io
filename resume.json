@@ -1,0 +1,32 @@
+{
+  "personal": {
+    "name": "Ewerton Melo de Souza",
+    "country": "Brasil",
+    "city": "São Paulo",
+    "email": "developerewt@gmail.com"
+  },
+  "languages": {
+    "portuguese": "native",
+    "english": "intermediary",
+    "french": "intermediary",
+    "spanish": "basic"
+  },
+  "experience": [
+    {
+      "company": "NBS - Nosbullshit",
+      "start": "2016-10",
+      "end": "current",
+      "description": "",
+      "website": "http://www.nobullshit.com.br/"
+    },
+    {
+      "company": "Porto Seguro Cia de Seguros",
+      "start": "2015-10",
+      "end": "2016-06",
+      "description": "",
+      "website": "http://www.portoseguro.com.br/"
+    }
+  ]
+
+
+}

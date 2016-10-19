@@ -2,38 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Developerewt Website</title>
+    <title>Developerewt's Resume</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:300'
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
-<body>
-<nav>
-    <div class="left-nav">
-        <ul>
-            <li class="brand">
-                DeveloperEWT
-            </li>
-            <li>
-                <a href="#about">about</a>
-            </li>
-            <li>
-                <a href="#knowledge">knowledge</a>
-            </li>
-            <li>
-                <a href="#experience">experience</a>
-            </li>
-            <li>
-                <a href="#contact">contact</a>
-            </li>
-        </ul>
+<body id="output-show" onload="init()">
+    <h1>developerewt</h1>
+    <div id="output">
+        <span id="end-output"></span>
     </div>
-    <div class="right-nav">
-        <button class="btn-black">
-            resume CLI
-        </button>
+    <div id="command-write">
+        <input type="text" id="command" onkeypress="execute(event)"
+               placeholder="Type a command or 'help' to display the command list.">
     </div>
-</nav>
+    <script src="js/default.js"></script>
 </body>
 </html>
